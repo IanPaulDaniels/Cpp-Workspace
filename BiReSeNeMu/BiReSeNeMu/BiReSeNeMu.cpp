@@ -42,24 +42,27 @@ void bisection(float a, float b, int maxBis, float tol) {
 		ym;
 
 	if ( ya * yb >= 0 ) {
-		cout << "Error! Zero Not Found";
+		cout << "Error! Zero Not Found." << endl << endl;
 	}
-
+	else {
 	//Begin Iterations
-	for (int index = 1; index <= maxBis; index++){
-		xm = (a + b) / 2;
-		ym = f(xm);
+		for (int index = 1; index <= maxBis; index++){
+			xm = (a + b) / 2;
+			ym = f(xm);
 
-		if( abs(ym) < tol) break;	// Solution is Good Enough
-		if (ya * ym < 0){			// Solution is in left hand interval
-			b = xm;
-			yb = ym;
-		}
-		else {
-			a = xm;
-			ya = ym;
+			if( abs(ym) < tol) break;	// Solution is Good Enough
+			if (ya * ym < 0){			// Solution is in left hand interval
+				b = xm;
+				yb = ym;
+			}
+			else {
+				a = xm;
+				ya = ym;
+			}
 		}
 	}
+
+	cout << "====== End of Bisection ======" << endl;
 
 }
 
@@ -131,9 +134,6 @@ int main() {
 	
 	}
 	cout << endl;
-
-	f(1);
-	f(2);
 	
 	bisection(1, 2, max, tol);
 	

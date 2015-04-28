@@ -1,4 +1,4 @@
-﻿Build started 3/15/2015 1:08:40 AM.
+﻿Build started 3/23/2015 1:07:20 PM.
      1>Project "C:\Users\Ian\Documents\GitHub\Cpp-Workspace\BiReSeNeMu\BiReSeNeMu\BiReSeNeMu.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\BiReSeNeMu.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -7,7 +7,7 @@
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\BiReSeNeMu.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BiReSeNeMu.cpp
          BiReSeNeMu.cpp
      1>c:\users\ian\documents\github\cpp-workspace\biresenemu\biresenemu\biresenemu.cpp(33): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
-     1>c:\users\ian\documents\github\cpp-workspace\biresenemu\biresenemu\biresenemu.cpp(139): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ian\documents\github\cpp-workspace\biresenemu\biresenemu\biresenemu.cpp(141): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
        ManifestResourceCompile:
          All outputs are up-to-date.
        Link:
@@ -27,4 +27,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.88
+Time Elapsed 00:00:00.73

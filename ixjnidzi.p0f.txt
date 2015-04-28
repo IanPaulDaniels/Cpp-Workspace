@@ -1,0 +1,26 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   .gitattributes
+#
+# Changes not staged for commit:
+#	modified:   BiReSeNeMu/BiReSeNeMu.sdf
+#	modified:   BiReSeNeMu/BiReSeNeMu.suo
+#	modified:   BiReSeNeMu/BiReSeNeMu/BiReSeNeMu.cpp
+#	modified:   BiReSeNeMu/BiReSeNeMu/Debug/BiReSeNeMu.log
+#	modified:   BiReSeNeMu/BiReSeNeMu/Debug/BiReSeNeMu.obj
+#	modified:   BiReSeNeMu/BiReSeNeMu/Debug/vc100.idb
+#	modified:   BiReSeNeMu/BiReSeNeMu/Debug/vc100.pdb
+#	modified:   BiReSeNeMu/Debug/BiReSeNeMu.exe
+#	modified:   BiReSeNeMu/Debug/BiReSeNeMu.ilk
+#	modified:   BiReSeNeMu/Debug/BiReSeNeMu.pdb
+#	modified:   BiReSeNeMu/ipch/biresenemu-2662ae22/biresenemu-b495677b.ipch
+#
+# Untracked files:
+#	BGE/
+#
+
